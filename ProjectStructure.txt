@@ -1,0 +1,31 @@
+Project Structure Followed
+
+e2e/: End-to-end tests.
+node_modules/: Dependencies installed via npm.
+src/: Main source folder.
+  app/: Main application folder.
+    core/: Singleton services, universal components, and other single-use modules.
+    shared/: Shared components, directives, and pipes.
+    features/: Feature modules.
+      feature1/: Specific feature module.
+        components/: Components related to the feature.
+        services/: Services related to the feature.
+        models/: Models related to the feature.
+        feature1.module.ts: Feature module definition.
+    app-routing.module.ts: Main routing module.
+    app.component.ts: Root component.
+    app.module.ts: Root module.
+  assets/: Static assets like images, styles, etc.
+  environments/: Environment-specific configurations.
+    environment.ts: Development environment configuration.
+    environment.prod.ts: Production environment configuration.
+  styles/: Global styles.
+  index.html: Main HTML file.
+  main.ts: Main entry point.
+  polyfills.ts: Polyfills for browser compatibility.
+  styles.css: Global styles.
+  test.ts: Test configuration.
+angular.json: Angular CLI configuration.
+package.json: npm configuration.
+tsconfig.json: TypeScript configuration.
+tslint.json: Linting configuration.
